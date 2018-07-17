@@ -1,13 +1,8 @@
-# Andromeda Reaper
+# Agarium Mould
 
-The reaper is a very basic model for controlling mbots in the andromeda environment.
-Essentially the bots move forward at a constant rate towards the first food that it has detected.
-If there is poison detected closer than the food, the mbot will change it's heading.
+## Use the mould as a starting point
 
-## Use the reaper as a starting point
-
-The reaper is designed to be the simplest possible model to help with building models for embod.ai
-Feel free to fork the project and make modifications.
+The mould bot uses Neuro-evolution of Augmenting Topologies (NEAT) to learn how to be successful in the environment
 
 # Installing
 
@@ -35,7 +30,7 @@ This is really easy...[**Click here to get started**](https://app.embod.ai/docum
 python run.py -p [YOUR API KEY] -a [YOUR AGENT ID]
 ```
 
-Once the agent is running you can view it's progress on the andromeda view page [here](https://app.embod.ai/andromeda/view)
+Once the agent is running you can view it's progress on the agarium view page [here](https://app.embod.ai/agarium/view)
 
 You can also see the other agents that it is competing against here too!
 
