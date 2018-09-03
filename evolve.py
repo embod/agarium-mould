@@ -1,7 +1,6 @@
 import embod_client as client
 import os
 from uuid import UUID
-import asyncio
 import neat
 from collections import defaultdict, Counter
 from state_stack import StateStack
